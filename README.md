@@ -33,6 +33,7 @@ This project focused on the complete engineering design process of a truss bridg
   - PLA filament
 - **Hand calculations / spreadsheets** for structural analysis
 - **Basic testing apparatus** for load application
+![Solidworks Exploded View](<img width="736" height="434" alt="Screenshot 2026-01-24 222151" src="https://github.com/user-attachments/assets/136f2e9f-1c39-40cf-a7d9-06484f756693" />)
 
 ---
 
@@ -65,6 +66,3 @@ This project focused on the complete engineering design process of a truss bridg
 - Compared experimental performance to theoretical predictions
 - Identified discrepancies due to material properties, print orientation, and joint behavior
 
----
-
-## Files Included
