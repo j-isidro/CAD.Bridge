@@ -8,10 +8,10 @@ This project focused on the complete engineering design process of a truss bridg
 ## Objectives
 - Apply fundamental structural mechanics and statics principles  
 - Design an efficient truss bridge in a small team setting  
-- Calculate internal member forces using analytical methods  
+- Calculate internal member forces  
 - Model bridge members in SolidWorks  
 - Manufacture components using 3D printing (PLA)  
-- Assemble and load-test the bridge to failure or maximum load  
+- Assemble and load-test the bridge to failure
 
 ---
 
@@ -31,9 +31,11 @@ This project focused on the complete engineering design process of a truss bridg
   - Assemblies
 - **Prusa 3D printers**
   - PLA filament
-- **Hand calculations / spreadsheets** for structural analysis
-- **Basic testing apparatus** for load application
-![Solidworks Exploded View](<img width="736" height="434" alt="Screenshot 2026-01-24 222151" src="https://github.com/user-attachments/assets/136f2e9f-1c39-40cf-a7d9-06484f756693" />)
+- **Hand calculations** for structural analysis
+- **Basic testing apparatus (AMT SSA1000 Structural Stress Analyzer)** for load application
+
+### SolidWorks Exploded View 
+<img width="736" height="434" alt="Screenshot 2026-01-24 222151" src="https://github.com/user-attachments/assets/a88f9d4c-21e7-4236-9f9c-f47d081c0886" />
 
 ---
 
@@ -41,7 +43,7 @@ This project focused on the complete engineering design process of a truss bridg
 
 ### 1. Conceptual Design
 - Evaluated multiple truss configurations
-- Selected a design based on efficiency, symmetry, and manufacturability
+- Selected a design based on efficiency 
 - Considered load paths and member force distribution
 
 ### 2. CAD Modeling
