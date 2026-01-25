@@ -3,6 +3,12 @@
 ## Project Overview
 This project focused on the complete engineering design process of a truss bridge, combining **structural theory**, **analytical calculations**, **CAD modeling**, and **physical prototyping**. Working in a small team, we designed a bridge structure, calculated internal member forces, manufactured the components, and experimentally tested the final assembly to evaluate its load-bearing performance.
 
+### Final Prototype 
+<img src="https://github.com/user-attachments/assets/9a10585f-f581-4b14-956e-2601c183a985"
+     width="360"
+     height="300"
+     alt="SolidWorks Exploded View" />
+
 ---
 
 ## Objectives
@@ -23,6 +29,9 @@ This project focused on the complete engineering design process of a truss bridg
 - Calculated expected internal forces for each bridge member  
 - Used theoretical results to guide member sizing and geometry  
 
+### Method of Joints Illustration
+<img width="400" height="320" alt="Screenshot 2026-01-25 123348" src="https://github.com/user-attachments/assets/9f272cee-aea8-453a-9c21-98bf9dd4a172" />
+
 ---
 
 ## Tools & Software
@@ -33,10 +42,6 @@ This project focused on the complete engineering design process of a truss bridg
   - PLA filament
 - **Hand calculations** for structural analysis
 - **Basic testing apparatus (AMT SSA1000 Structural Stress Analyzer)** for load application
-
-### SolidWorks Exploded View 
-<img width="736" height="434" alt="Screenshot 2026-01-24 222151" src="https://github.com/user-attachments/assets/a88f9d4c-21e7-4236-9f9c-f47d081c0886" />
-
 ---
 
 ## Design & Manufacturing Process
@@ -60,11 +65,18 @@ This project focused on the complete engineering design process of a truss bridg
 - Assembled all members into a complete bridge structure
 - Verified proper joint connections and alignment
 
+### SolidWorks Exploded View 
+<img width="640" height="420" alt="Screenshot 2026-01-24 222151" src="https://github.com/user-attachments/assets/a88f9d4c-21e7-4236-9f9c-f47d081c0886" />
+
 ---
 
-## Testing & Results
+## Procedure
 - Incrementally applied load to the bridge
 - Observed deformation and failure modes
 - Compared experimental performance to theoretical predictions
 - Identified discrepancies due to material properties, print orientation, and joint behavior
+
+
+## Testing & Results
+- the bridge weighed 161.3 g and failed at 130 lb with a vertical deflection of 0.723 in
 
