@@ -1,56 +1,70 @@
-<h1>3D Printed CAD Bridge</h1>
+# Truss Bridge Design, Analysis, and Physical Testing
 
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
+## Project Overview
+This project focused on the complete engineering design process of a truss bridge, combining **structural theory**, **analytical calculations**, **CAD modeling**, and **physical prototyping**. Working in a small team, we designed a bridge structure, calculated internal member forces, manufactured the components, and experimentally tested the final assembly to evaluate its load-bearing performance.
 
+---
 
-<h2>Languages and Utilities Used</h2>
+## Objectives
+- Apply fundamental structural mechanics and statics principles  
+- Design an efficient truss bridge in a small team setting  
+- Calculate internal member forces using analytical methods  
+- Model bridge members in SolidWorks  
+- Manufacture components using 3D printing (PLA)  
+- Assemble and load-test the bridge to failure or maximum load  
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+---
 
-<h2>Environments Used </h2>
+## Engineering Theory & Analysis
+- Applied equilibrium equations and truss analysis methods  
+  - Method of joints  
+  - Method of sections  
+- Identified tension and compression members  
+- Calculated expected internal forces for each bridge member  
+- Used theoretical results to guide member sizing and geometry  
 
-- <b>Windows 10</b> (21H2)
+---
 
-<h2>Program walk-through:</h2>
+## Tools & Software
+- **SolidWorks**
+  - Part modeling
+  - Assemblies
+- **Prusa 3D printers**
+  - PLA filament
+- **Hand calculations / spreadsheets** for structural analysis
+- **Basic testing apparatus** for load application
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+---
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+## Design & Manufacturing Process
+
+### 1. Conceptual Design
+- Evaluated multiple truss configurations
+- Selected a design based on efficiency, symmetry, and manufacturability
+- Considered load paths and member force distribution
+
+### 2. CAD Modeling
+- Modeled individual bridge members in SolidWorks
+- Designed joints to ensure proper fit and alignment
+- Created a full assembly to verify geometry and tolerances
+
+### 3. Manufacturing
+- 3D printed all structural members using PLA
+- Optimized print orientation and infill for strength
+- Ensured dimensional consistency across parts
+
+### 4. Assembly
+- Assembled all members into a complete bridge structure
+- Verified proper joint connections and alignment
+
+---
+
+## Testing & Results
+- Incrementally applied load to the bridge
+- Observed deformation and failure modes
+- Compared experimental performance to theoretical predictions
+- Identified discrepancies due to material properties, print orientation, and joint behavior
+
+---
+
+## Files Included
