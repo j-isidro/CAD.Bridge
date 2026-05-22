@@ -1,7 +1,7 @@
 # Truss Bridge Design, Analysis, and Physical Testing
 
 ## Project Overview
-This project focused on the complete engineering design process of a truss bridge, combining **structural theory**, **analytical calculations**, **CAD modeling**, and **physical prototyping**. Working in a small team, we designed a bridge structure, calculated internal member forces, manufactured the components, and experimentally tested the final assembly to evaluate its load-bearing performance.
+This project focused on the complete engineering design process of a truss bridge, combining **structural theory**, **analytical calculations**, **CAD modeling**, and **physical prototyping**. I designed a bridge structure, calculated internal member forces, manufactured the components, and experimentally tested the final assembly to evaluate its load-bearing performance.
 
 ### Final Prototype 
 <img src="https://github.com/user-attachments/assets/9a10585f-f581-4b14-956e-2601c183a985"
@@ -24,7 +24,6 @@ This project focused on the complete engineering design process of a truss bridg
 ## Engineering Theory & Analysis
 - Applied equilibrium equations and truss analysis methods  
   - Method of joints  
-  - Method of sections  
 - Identified tension and compression members  
 - Calculated expected internal forces for each bridge member  
 - Used theoretical results to guide member sizing and geometry  
